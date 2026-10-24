@@ -1,47 +1,56 @@
-<!-- Copyright (C) 2023-2025 anonymous
-
-This file is part of PSFree.
-
-PSFree is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as
-published by the Free Software Foundation, either version 3 of the
-License, or (at your option) any later version.
-
-PSFree is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
--->
+<!-- Copyright (C) 2023-2025 anonymous -->
+<!-- Customized with style by amorabk -->
 <html>
-    <head>
-        <meta charset='utf-8'>
-        <title>PSFree-Lapse Exploit For PS4 9.00</title>
-        <style>
-            @font-face {
-                font-family: 'logging';
-                src: url('fonts/LiberationMono-Regular.ttf');
-            }
-            #console {
-                font-family: 'logging';
-            }
-        </style>
-        <script>
+<head>
+    <meta charset="utf-8">
+    <title>amorabk PS4 9.00 Host</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #00ffcc;
+            font-family: 'Logging', monospace;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            text-shadow: 0 0 15px #00ffcc;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #ff0055;
+            font-size: 16px;
+            text-shadow: 0 0 10px #ff0055;
+            margin-bottom: 30px;
+        }
+        @font-face {
+            font-family: 'Logging';
+            src: url('./fonts/LiberationMono-Regular.ttf');
+        }
+        #console {
+            font-family: 'Logging';
+            color: #ffffff;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        a {
+            color: #00ffcc;
+        }
+    </style>
+</head>
+<body>
+    <h1>amorabk PS4 9.00 Exploit Host</h1>
+    <div class="subtitle">=== Welcome Pro - Enjoy Your Games ===</div>
+    <br>
+    <script>
         if (window.applicationCache.status=='0')
         {
-          window.location.replace("cache.html");
+            window.location.replace("cache.html");
         }
-        </script>
-    </head>
-    <body>
-        PSFree: A PS4/PS5 Exploit Chain
-        <br>
-        <br>
-        See <a href='./about.html' data-jslicense='1'>JavaScript license information</a> for the
-        source code and license.<br>
-        <pre id='console'></pre>
-    </body>
-    <script type='module' src='./alert.mjs'></script>
+    </script>
+    <br>
+    See <a href="./about.html" data-jslicense="1">JavaScript license information</a> for the source code and license.<br>
+    <pre id="console"></pre>
+</body>
+<script type="module" src="./alert.mjs"></script>
 </html>
